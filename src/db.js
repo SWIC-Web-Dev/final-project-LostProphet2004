@@ -1,0 +1,42 @@
+export default [
+  {
+    id: 1,
+    name: "Alex Smith",
+    Conduitgenestatus: "Prime Conduit",
+    Lastseenin: "New York State, New York City",
+    estimatedRisk: "Minimal",
+    conduitType: "Elemental Prime Conduit: Ink",
+  },
+  {
+    id: 2,
+    name: "Jacqueline Watson",
+    Conduitgenestatus: "",
+    Lastseenin: "",
+    estimatedRisk: "",
+    ConduitType: "",
+  },
+  {
+    id: 3,
+    name: "",
+    Conduitgenestatus: "",
+    Lastseenin: "",
+    estimatedRisk: "",
+    ConduitType: "",
+  },
+  {
+    id: 4,
+    name: "",
+    Conduitgenestatus: "",
+    Lastseenin: "",
+    estimatedRisk: "",
+    ConduitType: "",
+  },
+  {
+    id: 5,
+    name: "",
+    Conduitgenestatus: "",
+    Lastseenin: "",
+    estimatedRisk: "",
+    ConduitType: "",
+  },
+];
