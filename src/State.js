@@ -20,16 +20,16 @@ export default (() => {
     subscribe(listener) {
       listeners.push(listener);
     },
-    addSuspect({ name, assignedTo, estimatedTime, temperature }) {
-      // Update the state by mixing the new dish with the existing dishes
+    addSuspect({ name, Lastseenin, estimatedRisk, ConduitType }) {
+      // Update the state by mixing the new suspect with the pre-existing suspects.
       const newConduits = [
         ...state.conduits,
         {
           name,
-          status: "not started",
-          assignedTo,
-          estimatedTime,
-          temperature,
+          Conduitgenestatus: "Active",
+          Lastseenin,
+          estimatedRisk,
+          ConduitType,
         },
       ];
 

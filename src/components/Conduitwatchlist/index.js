@@ -1,6 +1,6 @@
 import Conduitformat from "./conduit-format.js";
 
-export default function PatientsTable(conduits) {
+export default function Suspecttable(conduits) {
   return `
     <table class="w-full mt-4 border-collapse border">
       <thead class="bg-gray-100">
