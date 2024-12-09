@@ -9,7 +9,7 @@ export default function Conduitformat({
   ConduitType,
 }) {
   return `
-    <tr class="border-b *:p-2" data-dish=${id}>
+    <tr class="border-b *:p-2" data-conduit=${id}>
       <td>${name}</td>
       <td>${Conduitgenestatus}</td>
       <td>${Lastseenin}</td>

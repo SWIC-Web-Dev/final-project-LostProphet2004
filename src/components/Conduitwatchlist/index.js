@@ -1,4 +1,4 @@
-import Conduitformat from "./conduit-format.js";
+import Conduitformat from "./Conduit-format.js";
 
 export default function Suspecttable(conduits) {
   return `
