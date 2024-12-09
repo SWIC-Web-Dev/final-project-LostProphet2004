@@ -1,5 +1,5 @@
 import Button from "./components/button";
-import Suspecttable from "./components/conduitwatchlist";
+import Suspecttable from "./components/Conduitwatchlist";
 import Input from "./components/Input";
 import initialwatchList from "./db";
 import state from "./state";
