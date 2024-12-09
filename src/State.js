@@ -37,7 +37,7 @@ export default (() => {
       this.setState({ conduits: newConduits });
     },
     deleteSuspect(conduitId) {
-      // Filter out the dish with the given name
+      // Filter out the suspect with the given name
       const newConduits = state.conduits.filter(
         // * Be sure to compare the same type of values
         (conduit) => conduit.id !== Number(conduitId),
