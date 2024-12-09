@@ -9,13 +9,13 @@ export default function Conduitformat({
   ConduitType,
 }) {
   return `
-    <tr class="border-b *:p-2" data-conduit=${id}>
-      <td>${name}</td>
-      <td>${Conduitgenestatus}</td>
-      <td>${Lastseenin}</td>
-      <td>${estimatedRisk}</td>
-      <td>${ConduitType}</td>
-      <td>${Button({ text: "Delete", additionalClasses: "bg-red-500 rounded text-white px-2 py-1" })}</td>
+    <tr class="border border-black *:p-2" data-conduit=${id}>
+      <td class="bg-yellow-500 font-bold border border-black">${name}</td>
+      <td class="bg-yellow-500 font-bold border border-black">${Conduitgenestatus}</td>
+      <td class="bg-yellow-500 font-bold border border-black">${Lastseenin}</td>
+      <td class="bg-yellow-500 font-bold border border-black">${estimatedRisk}</td>
+      <td class="bg-yellow-500 font-bold border border-black">${ConduitType}</td>
+      <td class="bg-yellow-500 font-bold border border-black">${Button({ text: "Delete", additionalClasses: "bg-amber-400 rounded text-black px-2 py-1" })}</td>
     </tr>
   `;
 }

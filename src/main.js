@@ -27,7 +27,8 @@ function render() {
           .map((field) =>
             Input({
               ...field,
-              additionalClasses: "mb-2",
+              additionalClasses:
+                "mb-2 bg-yellow-500 text-black px-4 py-2 font-bold",
             }),
           )
           .join("")}
@@ -35,7 +36,7 @@ function render() {
           ${Button({
             type: "submit",
             additionalClasses:
-              "w-full bg-indigo-500 text-white px-4 py-2 hover:bg-indigo-600",
+              "w-full bg-yellow-500 text-black px-4 py-2 font-bold hover:bg-white",
             text: "Add Conduit Suspect",
           })}
       </form>
